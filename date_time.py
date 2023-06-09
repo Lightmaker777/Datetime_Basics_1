@@ -83,7 +83,7 @@ print("The number of days between", date1, "and", date2, "is", num_days)
 
 from datetime import datetime
 
-# Input the two dates from the user
+# Input the hours of two dates from the user
 date1 = input("Enter the first date (YYYY-MM-DD HH:MM:SS): ")
 date2 = input("Enter the second date (YYYY-MM-DD HH:MM:SS): ")
 
@@ -96,7 +96,7 @@ delta = date2_convert - date1_convert
 num_hours = delta.total_seconds() / 3600
 
 # Display the result
-print("The number of days between", date2, "and", date1, "is:", num_hours, "hours")
+print("The number of hours between", date2, "and", date1, "is:", num_hours, "hours")
 
 
 
